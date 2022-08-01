@@ -1,0 +1,21 @@
+.main-info {
+  box-shadow: 5px 5px 5px #cbced1, 1px 1px 1px #cbced1;
+}
+
+.bio {
+  width: 100%;
+}
+
+.btn-edit {
+  background-color: transparent;
+  border: none;
+  color: #1da1f2;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 50px;
+}

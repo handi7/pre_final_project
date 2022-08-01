@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capture Email Verification.</title>
+    <style>
+      .container{padding: 50px 0;} .container-2{ width: 500px; background-color:
+      white; padding: 10px;} .brand{border-bottom: 1px solid #e0e0e0;} .brand
+      img{width: 200px;} .link{ background-color: #1da1f2; color: white;
+      padding: 20px ; border: none; border-radius: 5px; } .link:hover{cursor:
+      pointer;} .bottom{display: flex;} .bottom2{display: flex; margin-bottom:
+      5px; border-bottom: 1px solid #e0e0e0;}
+
+    </style>
+  </head>
+  <body>
+    <center class="container">
+      <div class="container-2">
+        <div class="brand"><img
+            src="https://lh3.googleusercontent.com/zOlwPECYj9zj0_QFAri1CfI2Yg5nF2YoKFkETy6J--yXWE4fsZ-D30T3ZB4z8cmzzuxmJeNBnPoE-T6WOP-HFKpL_FodtK2gpwi9fIOk6g9OERCbK4FmL5YWNlWmkNHkSMVLbyC-Q25W3pk7jArdp6Too7dMPZNcxtIfxePxicV_PK7OizTccQS58jo3YKoBfHCaSM7T4S3NDD9ISdwnV3o4DBL6HLchPoC-0nb184fiURBnEG67_fxvcHvJIVWUEjDYI52rZwHBSKXcpPi94qQqc3G7Hz9xJYFPnipYVvJ-sRZW0wh46dZwgRMyY0MFFuUn6O5jFn03_k9QrmrzvYaNiWmm06VR3Aw997Sj2uSNNpKjlxTB8_3oJFTS7sNpdkE2a2vnvtxNZJgGsS5rJxi1t0E7eEKQLYlFKzItv_rxV1zt2jWv4Sbvdty5agTtyhrDTp7h8WkJvGDuyz9ggoOkwAFGCUMXrqh5Vx7xim244wbYdvElWPQ7pN_xWzlVLn7Qm89ctiJDa0qxrs4JNNXoM3Dqtk6GqyWUwz_rCVsmg3C_8f6D5m76slitgCYzeCH7VNW9oaQxXuYGzFRMJXR60ZBSCNCWCEYw1Kd7T6TBTHdALCa4_Zyyeaz1d-RCGokVCB1QwFo3CZyr4u85mwn9a5Va7q1yJuzggMVw5wgwtgk2S-5pZkBFr7DWmB0ACCBKagYKR6KH7E8fN29OSkTHPGqfSujmee4RnfRDUJNRmiDycXyQ9H61W-GbH6AiOOpSyEq44MZX6CXbX2FDJpoIlGI9wVu6cfkBXLd-8d-vXYWc3Y3SiDHClrANzBbrUkxi9JPOgmLIJ-PVz6_UfW9fd4trJugoIiDLtpYC3Jv-gh461Y9wF5JeYUTRNix40dzIaFuH5gY=w902-h229-no?authuser=0"
+            alt="brand"
+          />
+          <h3>Email Verification.</h3>
+        </div>
+        <h2>Hi, {{name}}! </h2>
+        <p>Please click the link below to verify your email address. </p>
+        <br />
+        <a href="http://localhost:3000/authentication/{{token}}">
+          <button class="link">
+            Verify Email
+
+          </button>
+        </a>
+        <br />
+        <p>If you didn't create an account , no further action is required.</p>
+        <br />
+        <div class="bottom">
+          <p>Regards,</p>
+          <br />
+        </div>
+        <div class="bottom2">
+          <p>Capture</p>
+        </div>
+        <p>This message was sent to you by Capture Media</p>
+      </div>
+    </center>
+  </body>
+</html>

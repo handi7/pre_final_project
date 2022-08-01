@@ -1,0 +1,38 @@
+.reg-container {
+  background-color: #1da1f2;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.container {
+  /* height: 500px; */
+  display: flex;
+  flex-direction: row;
+  width: 870px;
+  background-color: #fff;
+}
+/* 
+.head {
+  color: #1da1f2;
+} */
+
+.head button {
+  border: none;
+  padding: 5px 10px;
+}
+
+.reg-login {
+  border-radius: 5px 0 0 5px;
+}
+
+.reg-reg {
+  background-color: #1da1f2;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+}
+
+.searc {
+  right: 0;
+  border: none;
+  background-color: transparent;
+}
